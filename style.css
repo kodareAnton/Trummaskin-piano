@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: orange;
+  text-align: center;
+}
+
+p {
+  color: orange;
+  text-align: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(0, 110, 255);
+  border: rgb(255, 166, 0) solid 1px;
+  margin: 2px;
+}
+
+.box_2 {
+  background-color: white;
+  height: 250px;
+  width: 75px;
+  display: flex;
+  border: tomato solid 1px;
+  margin: 2px;
+}
+
+.box:hover {
+  background-color: blue;
+}
+
+#drums {
+  display: flex;
+  justify-content: center;
+}
+
+.piano {
+  display: flex;
+  justify-content: center;
+}
+
+.box_2:hover {
+  background-color: grey;
+}
